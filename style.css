@@ -1,61 +1,55 @@
 	body{
-		background-color: skyblue;
+		background-color: blue;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 		}
-
-	.center{
-		display: block;
+	
+	.image{
+		width: 300px;
+		height: 250px;
+		display: block; 
 		margin-right: auto;
 		margin-left: auto;
 		margin-bottom: 0;
 		}
+		
 	h1{
-		text-align: Center;
-		margin-top: 0;
-		margin-bottom: 10px;
-		font-size: 1.5cm;
-		}
-
-	h2{
-		text-align: Center;
-		margin-bottom: 0cm;
-		font-size: 1.5cm;
-		}
-	h3{
-		text-align: Center;
-		margin-top: 1cm;
-		margin-bottom: 0cm;
-		}
-	.a{
-		text-align: Center;
-		margin-top: 2mm;
-		margin-bottom: 2mm;
-		font-size: 6mm
-		}
-	.b{
-		text-align: Center;
-		margin-top: 2mm;
-		margin-bottom: 2mm;
-		font-size: 5mm;
+		font-size: 25px;
 		font-style: italic;
-		color: red;
+		text-decoration: underline;
+		text-align: center
 		}
-	.c{
-		text-align: Center;
-		margin-top: 2mm;
-		margin-bottom: 2mm;
-		font-size: 5mm;
-		color: red;
+		
+	.section1{
+		background-color: black;
+		background-image: url("bg1.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		border-color: skyblue;
+		border-style: solid;
+		border-width: 3px
+		}
+	.section1 h2{
+		font-size: 35px;
+		text-align: center;
+		text-decoration: underline
+		}
+	.section1 p{
+		color: beige;
+		font-size: 25px;
+		margin: 0
+		}
+	
+	.section1 ul{
+		text-align: center;
+		color: beige;
 		}
 
-	.center{
-		text-align: Center;
-		}
-
-	.bullet{
-		display: inline-block;
-		text-align: left;
-		}
-
-	ul{
-		font-size: 6mm;
+	.section2{
+		background-color: beige;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		border-color: skyblue;
+		border-style: solid;
+		border-width: 3px
 		}
